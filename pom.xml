@@ -230,11 +230,6 @@
             <id>spigot-repo</id>
             <url>https://hub.spigotmc.org/nexus/content/groups/public/</url>
         </repository>
-        <!-- Sakura -->
-        <repository>
-            <id>Sakura Server</id>
-            <url>http://ci.sakura-server.net/plugin/repository/everything/</url>
-        </repository>
     </repositories>
 
     <!-- Dependencies
@@ -252,7 +247,9 @@
         <dependency>
             <groupId>net.syamn</groupId>
             <artifactId>SakuraLib</artifactId>
-            <version>1.6.2-0.1</version>
+            <version>1.8.3-1</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/SakuraLib-1.8.3-1.jar</systemPath>
         </dependency>
 
         <!-- Test Depends -->
