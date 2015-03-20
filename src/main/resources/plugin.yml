@@ -1,0 +1,6 @@
+name: Artemis
+version: version-number-unknown
+description: Minecraft Lobby Plugin.
+authors: [dejiplus]
+website: https://dejiplus.net/
+main: jp.dej.artemis.Artemis
